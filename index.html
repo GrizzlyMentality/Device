@@ -12,36 +12,45 @@
           <input type="search" placeholder=" Текст поиска">
           <input class="submit" value="Найти">
       </form>
-      <ul class="user-menu">
-          <li>
-              <a href="#">Войти</a>
+      <ul class="navigation-list navigation-user">
+          <li class="navigation-item">
+              <a class="navigation-link" href="#">Войти
+              </a>
           </li>
-          <li>
-              <a href="#">Сравнить</a>
+          <li class="navigation-item">
+              <a class="navigation=link" href="#">
+              <span class="visually-hidden">
+                  Сравнить
+              </span>
+              </a>
           </li>
-          <li>
-              <a href="#">Корзина</a>
+          <li class="navigation-item">
+              <a class="navigation-link" href="#">
+              <span class="visually-hidden">
+                  Корзина
+              </span>
+              </a>
           </li>
       </ul>
+      <nav class="navigation">
+          <ul class="navigation-list">
+              <li class="navigation-item">
+                  <a  class="navigation-link" href="#">КАТАЛОГ ТОВАРОВ</a>
+              </li>
+              <li class="navigation-item">
+                  <a class="navigation-link" href="#">ДОСТАВКА</a>
+              </li>
+              <li class="navigation-item">
+                  <a class="navigation-link" href="#">ГАРАНТИЯ</a>
+              </li>
+              <li class="navigation-item">
+                  <a class="navigation-link" href="#">КОНТАКТЫ</a>
+              </li>
+          </ul>
+      </nav>
     <h1>Device</h1>
   </header>
       <main>
-          <nav>
-              <ul>
-                  <li>
-                      <a href="#">КАТАЛОГ ТОВАРОВ</a>
-                  </li>
-                  <li>
-                      <a href="#">ДОСТАВКА</a>
-                  </li>
-                  <li>
-                      <a href="#">ГАРАНТИЯ</a>
-                  </li>
-                  <li>
-                      <a href="#">КОНТАКТЫ</a>
-                  </li>
-              </ul>
-          </nav>
           <figure>
               <figcaption>Порхает как бабочка, жалит как пчела!</figcaption>
                <p>Этот обычный, на первый взгляд, квадрокоптер оснащен<br>
@@ -63,6 +72,11 @@
       <a href="#">Кредит</a>
       </li>
      </ul>
+    <form action="#" method="post">
+        <input type="email" placeholder="Ваш e-mail">
+        <button type="submit">Подписаться</button>
+    </form>
+    <p>Это бесплатно</p>
 </footer>
   </body>
 </html>
